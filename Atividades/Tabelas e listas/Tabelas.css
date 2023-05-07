@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(120deg, #44136b, #450857);
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+table {
+    width: 100%;
+    border: white;
+    border: solid;
+  }
+
+  #home {
+    font-size: 40px;
+  }
+  
+  #botaoHome {
+    font-size: 30px;
+  }
+
+  #by {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  #Tabela{
+    text-align: center;
+    font-size: 40px;
+    color:palegreen;
+  }
+
+  h3{
+    color:seagreen;
+  }
