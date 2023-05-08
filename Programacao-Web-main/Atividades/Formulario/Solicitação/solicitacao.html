@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="solicitacao.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação de Filme</title>
+</head>
+<body>
+    <header>
+        <p id="home">
+            <button id="botaoHome">
+            <a href="../../index.html" style="text-decoration: none">☰</a>
+            </button>
+            <b><i>Home</i></b>
+        </p>
+    </header>
+
+    <main>
+        <section class="filme">
+            <form action="https://www.w3schools.com/action_page.php" method="post">
+                <fieldset class="filme_conteudo">
+                    
+                    <legend id="filme_titulo">Solicitação de Filme</legend>
+                    Nome do filme: <input id="filme_campo" type="text" name="nomeFilme" placeholder="Digite nome do filme" required/>
+                    <br />
+                    Ano de lançamento: <input id="filme_campo" type="number" name="anoFilme" placeholder="Digite o ano de lançamento" required/>
+                    <br />
+                    <input  id="filme_cadastrar" type="submit" value="Cadastrar"/>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Valmir Junior © 2023</p>
+    </footer>
+
+</body>
+</html>
