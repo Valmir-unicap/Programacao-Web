@@ -12,6 +12,11 @@ input {
     padding: 10px;
 }
 
+#titulo{
+    color: orange;
+    text-align: center;
+}
+
 .poke-card {
     position: relative;
     height: fit-content;
